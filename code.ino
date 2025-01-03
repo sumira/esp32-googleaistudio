@@ -7,10 +7,10 @@
 
 // WiFi credentials
 const char* ssid = "CISLabs";
-const char* password = "dGgTffY8";
+const char* password = "password";
 
 // Gemini API settings
-const char* gemini_api_key = "api key";
+const char* gemini_api_key = "api_key";
 String gemini_endpoint = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=" + String(gemini_api_key);
 
 // Pin definitions for ESP32-CAM
