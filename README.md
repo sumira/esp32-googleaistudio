@@ -40,3 +40,7 @@ The code includes the following libraries:
 ```cpp
 const char* ssid = "Your_SSID";
 const char* password = "Your_Password";
+
+const char* gemini_api_key = "<Your_API_Key>";
+String gemini_endpoint = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=" + String(gemini_api_key);
+
