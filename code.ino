@@ -10,7 +10,7 @@ const char* ssid = "CISLabs";
 const char* password = "dGgTffY8";
 
 // Gemini API settings
-const char* gemini_api_key = "AIzaSyBeSotFIOUgDYR4Nx3CY69ug0HzV2QvFQs";
+const char* gemini_api_key = "api key";
 String gemini_endpoint = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=" + String(gemini_api_key);
 
 // Pin definitions for ESP32-CAM
